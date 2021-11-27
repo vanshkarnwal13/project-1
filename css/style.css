@@ -1,0 +1,175 @@
+.logo-img{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;   
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.head{
+    font-family: "Montserrat";
+    font-weight:1000;
+    font-size: 4rem;
+    line-height: 1.5;
+    padding-bottom: 10%;
+}
+.container-fluid{
+    padding: 3% 15% 6%;
+}
+.navigation{
+    margin-bottom: 5%;
+}
+.btn{
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.btn-dark:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.navbar-collapse{
+    margin-right: 130px;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 3%;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    
+    
+}
+.title-img{
+    width: 20vw;
+    transform: rotate(25deg);
+    
+    right: 25%;
+    position: absolute;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+#cta{
+    background-color: #ff4c68 ;
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+}
+.last-text{
+    font-family:"Montserrat";
+    font-size: 4rem;
+    color: white;
+    line-height: 2;
+}
+h3{
+    font-family:"Montserrat" ;
+    font-weight: 600;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    font-size: 1.2rem ;
+}
+p{
+    color: #8f8f8f;
+}
+
+.fas{
+    color: #ef8172 ;
+    margin-bottom: 1rem;
+}
+
+.fas:hover{
+    color: #ff4c68;
+}
+
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172 ;
+    color: white;
+    
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+    font-family: "Montserrat" ;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 0 5%;
+
+}
+.dog-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 2%;
+    margin-bottom: 5%;
+}
+
+#press{
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #ef8172 ;
+}
+.press-logo{
+    width: 15%;
+    margin: 2% 1% 2% 1%;
+    
+} 
+
+.ann-img{
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    margin-bottom: 5%;
+}
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+    
+}
+
+
+@media (max-width: 1100px){
+    .title-img{
+        position: static;
+        width: fit-content;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
